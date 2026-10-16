@@ -1,0 +1,20 @@
+# Northwind Logistics - File server FS-01 access log (share: \\FS-01\Corp)
+# Fields: timestamp | user | host | action | path | bytes | destination
+
+2026-10-13 12:03:00 | m.okafor | FIN-WS-017 | READ | Finance/Q3/ledger_2026Q3.xlsx | 412890 | -
+2026-10-13 12:09:00 | j.lindqvist | HR-WS-003 | WRITE | HR/Onboarding/checklist_v4.docx | 88211 | -
+2026-10-13 12:15:00 | s.nakamura | DISPATCH-WS-008 | READ | Ops/Routes/NL-04.pdf | 1203991 | -
+2026-10-13 12:41:00 | r.alvarez | FIN-WS-042 | READ | Finance/AP/invoice_batch_oct.pdf | 2219020 | -
+2026-10-13 12:58:00 | r.alvarez | FIN-WS-017 | LIST | Finance/ | - | -
+2026-10-13 13:00:00 | r.alvarez | FIN-WS-017 | LIST | Sales/ | - | -
+2026-10-13 13:01:00 | r.alvarez | FIN-WS-017 | LIST | HR/ | - | -
+2026-10-13 13:04:00 | d.chen | SALES-WS-011 | READ | Sales/Pipeline/pipeline_oct.xlsx | 301223 | -
+2026-10-13 14:10:00 | r.alvarez | FS-01 | READ | Sales/Customers/customer_master_2026.xlsx | 48331776 | -
+2026-10-13 14:11:00 | r.alvarez | FS-01 | COPY | Sales/Customers/customer_master_2026.xlsx | 48331776 | C:\Windows\Temp\cm.7z
+2026-10-13 14:13:00 | r.alvarez | FS-01 | OUTBOUND | C:\Windows\Temp\cm.7z | 46120034 | https://transfer-node.cloud-sync-eu.example/upload (185.199.42.17)
+2026-10-13 14:20:00 | r.alvarez | FS-01 | READ | Finance/Q3/ledger_2026Q3.xlsx | 412890 | -
+2026-10-13 14:21:00 | r.alvarez | FS-01 | OUTBOUND | Finance/Q3/ledger_2026Q3.xlsx | 412890 | https://transfer-node.cloud-sync-eu.example/upload (185.199.42.17)
+2026-10-13 17:00:00 | svc-backup | FS-01 | READ | Corp/* | - | backup job nightly (skipped: locked)
+2026-10-13 23:55:00 | DOMAIN\ADMIN$ | FS-01 | DELETE | Backups/ShadowCopies/* | - | vssadmin delete shadows /all
+2026-10-14 00:00:00 | DOMAIN\ADMIN$ | FS-01 | WRITE | Corp/**/*.lockd | - | mass rename (12,407 files)
+2026-10-14 00:02:00 | DOMAIN\ADMIN$ | FS-01 | WRITE | Corp/README_RESTORE_FILES.txt | 1402 | ransom note

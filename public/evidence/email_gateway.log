@@ -1,0 +1,36 @@
+# Northwind Logistics - Email Security Gateway log
+# Fields: timestamp | direction | sender | recipient | subject | verdict | url_clicked
+# Timezone: UTC. Day of incident: 2026-10-13 (ransom notes found 00:12 on 2026-10-14)
+
+2026-10-13 07:05:00 | INTERNAL | hr@northwind-logistics.com | m.okafor@northwind-logistics.com | All-hands reminder: Friday 10:00 | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 07:26:00 | INBOUND  | noreply@dhl-notify.com | d.chen@northwind-logistics.com | Shipment 8841-2201 out for delivery | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 07:38:00 | INTERNAL | payroll@northwind-logistics.com | a.petrov@northwind-logistics.com | October payslips available | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 08:04:00 | INBOUND  | alerts@microsoft.com | l.moreau@northwind-logistics.com | Your subscription renews in 30 days | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 08:21:00 | INBOUND  | support@freightdesk.io | r.alvarez@northwind-logistics.com | Ticket #20931 updated | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 08:29:00 | INBOUND  | newsletter@logisticsweekly.com | j.lindqvist@northwind-logistics.com | This week in freight | DELIVERED (bulk) | -
+2026-10-13 08:51:00 | INTERNAL | it-helpdesk@northwind-logistics.com | k.brennan@northwind-logistics.com | Scheduled maintenance Sunday 02:00 | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 09:04:00 | INBOUND  | ap@brightline-parts.com | s.nakamura@northwind-logistics.com | Invoice BLP-33217 due | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 09:31:00 | INTERNAL | calendar@northwind-logistics.com | m.okafor@northwind-logistics.com | Updated: Q4 capacity planning | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 09:49:00 | INBOUND  | no-reply@zoom.us | d.chen@northwind-logistics.com | Cloud recording available | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 09:58:00 | INBOUND  | ops@portofrotterdam.example | a.petrov@northwind-logistics.com | Berth confirmation 14 Oct | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 10:21:00 | INTERNAL | sales@northwind-logistics.com | l.moreau@northwind-logistics.com | FW: Client onboarding checklist | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 10:35:00 | INBOUND  | noreply@github.com | r.alvarez@northwind-logistics.com | [northwind/wms] Pull request merged | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 11:03:00 | INBOUND  | billing@aws.example | j.lindqvist@northwind-logistics.com | Your invoice is available | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 11:22:00 | INTERNAL | careers@northwind-logistics.com | k.brennan@northwind-logistics.com | New applicant: Warehouse Lead | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 11:32:00 | INTERNAL | security@northwind-logistics.com | s.nakamura@northwind-logistics.com | Phishing awareness: October tips | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 11:56:00 | INBOUND  | accounts@globalpalletco.com | m.okafor@northwind-logistics.com | Statement of account September | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 12:11:00 | INBOUND  | invoices@northw1nd-billing.com | r.alvarez@northwind-logistics.com | Overdue invoice NW-10492 - action required | DELIVERED (spf=none dkim=none) | https://northw1nd-billing.com/portal/invoice/NW-10492.html
+2026-10-13 12:22:00 | CLICK    | invoices@northw1nd-billing.com | r.alvarez@northwind-logistics.com | Overdue invoice NW-10492 - action required | URL_CLICKED | https://northw1nd-billing.com/portal/invoice/NW-10492.html
+2026-10-13 12:40:00 | INBOUND  | noreply@slack.com | a.petrov@northwind-logistics.com | You have 3 unread messages | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 13:00:00 | INTERNAL | finance@northwind-logistics.com | l.moreau@northwind-logistics.com | Expense policy update | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 13:11:00 | INBOUND  | marketing@fleetsense.io | r.alvarez@northwind-logistics.com | Webinar: Telematics 2026 | DELIVERED (bulk) | -
+2026-10-13 13:36:00 | INTERNAL | dispatch@northwind-logistics.com | j.lindqvist@northwind-logistics.com | Route change: NL-04 tomorrow | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 13:52:00 | INBOUND  | noreply@adobe.com | k.brennan@northwind-logistics.com | Document signed: Carrier Agreement | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 13:59:00 | INBOUND  | info@chamberofcommerce.example | s.nakamura@northwind-logistics.com | Membership renewal | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 14:20:00 | INTERNAL | ceo@northwind-logistics.com | m.okafor@northwind-logistics.com | Thank you for a strong Q3 | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 14:32:00 | INBOUND  | noreply@linkedin.com | d.chen@northwind-logistics.com | You appeared in 9 searches this week | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 14:58:00 | INTERNAL | procurement@northwind-logistics.com | a.petrov@northwind-logistics.com | RFQ: forklift batteries | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 15:15:00 | INBOUND  | service@fuelcard-eu.example | l.moreau@northwind-logistics.com | Monthly fuel statement | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 15:23:00 | INBOUND  | team@notion.so | r.alvarez@northwind-logistics.com | Weekly digest | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 15:45:00 | INTERNAL | hr@northwind-logistics.com | j.lindqvist@northwind-logistics.com | All-hands reminder: Friday 10:00 | DELIVERED (spf=pass dkim=pass) | -
+2026-10-13 15:58:00 | INBOUND  | noreply@dhl-notify.com | k.brennan@northwind-logistics.com | Shipment 8841-2201 out for delivery | DELIVERED (spf=pass dkim=pass) | -

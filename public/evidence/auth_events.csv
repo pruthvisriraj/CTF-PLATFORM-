@@ -1,0 +1,25 @@
+timestamp,event,user,host,source_ip,result,detail
+2026-10-13 08:00:00,LOGON,m.okafor,FIN-WS-017,10.20.1.40,SUCCESS,interactive
+2026-10-13 08:06:00,LOGON,j.lindqvist,HR-WS-003,10.20.2.41,SUCCESS,interactive
+2026-10-13 08:12:00,LOGON,a.petrov,OPS-WS-021,10.20.3.42,SUCCESS,interactive
+2026-10-13 08:18:00,LOGON,s.nakamura,FIN-WS-042,10.20.1.43,SUCCESS,interactive
+2026-10-13 08:24:00,LOGON,r.alvarez,DISPATCH-WS-008,10.20.2.44,SUCCESS,interactive
+2026-10-13 08:30:00,LOGON,d.chen,SALES-WS-011,10.20.3.45,SUCCESS,interactive
+2026-10-13 08:36:00,LOGON,k.brennan,IT-WS-001,10.20.1.46,SUCCESS,interactive
+2026-10-13 08:42:00,LOGON,l.moreau,FIN-WS-019,10.20.2.47,SUCCESS,interactive
+2026-10-13 08:55:00,LOGON_FAILED,a.petrov,OPS-WS-021,10.20.2.42,FAILURE,bad password
+2026-10-13 08:56:00,LOGON,a.petrov,OPS-WS-021,10.20.2.42,SUCCESS,interactive
+2026-10-13 09:37:00,LOGOFF,hr-svc,HR-WS-003,10.20.1.41,SUCCESS,session timeout
+2026-10-13 10:20:00,LOGON,m.okafor,FIN-WS-017,10.20.1.40,SUCCESS,interactive
+2026-10-13 11:08:00,LOGON,svc-backup,FS-01,10.20.0.5,SUCCESS,service
+2026-10-13 12:20:00,LOGOFF,j.lindqvist,HR-WS-003,10.20.1.41,SUCCESS,user logoff
+2026-10-13 12:31:00,LOGON,r.alvarez,FIN-WS-042,185.199.42.17,SUCCESS,remote - new device - token replay
+2026-10-13 12:32:00,LOGON_FAILED,r.alvarez,FIN-WS-017,185.199.42.17,FAILURE,account locked briefly
+2026-10-13 12:44:00,LOGON,r.alvarez,FIN-WS-017,185.199.42.17,SUCCESS,lateral - network logon
+2026-10-13 13:01:00,LOGON,d.chen,SALES-WS-011,10.20.2.45,SUCCESS,interactive
+2026-10-13 14:05:00,LOGON,r.alvarez,FS-01,185.199.42.17,SUCCESS,network logon - admin share
+2026-10-13 15:00:00,LOGON,svc-ad,DC-01,10.20.0.2,SUCCESS,service
+2026-10-13 18:10:00,LOGON,r.alvarez,DC-01,185.199.42.17,SUCCESS,network logon - privileged
+2026-10-13 18:40:00,PRIV_ESC,r.alvarez,DC-01,185.199.42.17,SUCCESS,added to Domain Admins
+2026-10-13 23:00:00,LOGON,svc-backup,FS-01,10.20.0.5,SUCCESS,service
+2026-10-13 23:58:00,LOGON,DOMAIN\ADMIN$,FS-01,185.199.42.17,SUCCESS,psexec
