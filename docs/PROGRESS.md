@@ -6,11 +6,11 @@ Autonomous build log. Resume from the first unchecked item.
 - [x] Stage 1 - Setup (Next.js 14, TS strict, Tailwind, shadcn-style UI, Supabase clients, Vitest, docs)
 - [x] Stage 2 - Database + seed written (migration, RLS, learner-safe RPC, seed.sql, evidence files)
 - [ ] Stage 2b - Migration + seed applied to hosted Supabase (needs project credentials)
-- [ ] Stage 3 - Auth + Join
-- [ ] Stage 4 - Gameplay
-- [ ] Stage 5 - Live leaderboard
-- [ ] Stage 6 - Facilitator dashboard
-- [ ] Stage 7 - Debrief
+- [x] Stage 3 - Auth + Join (code complete, pending end-to-end test against hosted Supabase)
+- [x] Stage 4 - Gameplay (code complete, pending end-to-end test against hosted Supabase)
+- [x] Stage 5 - Live leaderboard (code complete, pending end-to-end test against hosted Supabase)
+- [x] Stage 6 - Facilitator dashboard (code complete, pending end-to-end test against hosted Supabase)
+- [x] Stage 7 - Debrief (code complete, pending end-to-end test against hosted Supabase)
 - [ ] Stage 8 - Polish + security review
 - [ ] Stage 9 - Deploy + domain
 
